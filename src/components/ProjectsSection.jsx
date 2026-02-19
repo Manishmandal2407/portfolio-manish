@@ -3,6 +3,40 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "InkSpace",
+    description:
+      " Built a full-stack AI-powered blogging platform supporting content creation, editing, publishing, and role-based access for multiple users through a scalable REST architecture.",
+    image: "/projects/Inkspace.png",
+    tags: [
+      "React.js",
+      "TailwindCSS",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "JWT",
+    ],
+    demoUrl: "https://ink-space-frontend.vercel.app/",
+    githubUrl: "https://github.com/Manishmandal2407/InkSpace",
+  },
+  {
+    id: 2,
+    title: "Lively",
+    description:
+      " Engineered a low-latency real-time messaging system enabling bi-directional communication with under 200ms latency for 100+ concurrent users",
+    image: "/projects/Lively.png",
+    tags: [
+      "React.js",
+      "TailwindCSS",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "JWT",
+    ],
+    demoUrl: "https://github.com/Manishmandal2407/Lively/tree/master",
+    githubUrl: "https://github.com/Manishmandal2407/Lively/tree/master",
+  },
+  {
+    id: 3,
     title: "Health Connect",
     description:
       "Developed a fullstack, secure and scalable full-stack web platform enabling patients and healthcare professionals to manage Health records and communication remotely.",
@@ -18,8 +52,9 @@ const projects = [
     demoUrl: "https://github.com/Manishmandal2407/Health-Connect/tree/master",
     githubUrl: "https://github.com/Manishmandal2407/Health-Connect/tree/master",
   },
+
   {
-    id: 2,
+    id: 4,
     title: "Rest Explorer",
     description:
       "Built a full-stack web application to generate trip plans using Gemini AI based on user preferences (budget, location, interests).",
@@ -36,7 +71,7 @@ const projects = [
     githubUrl: "https://github.com/Manishmandal2407/AI-Trip-Planner",
   },
   {
-    id: 3,
+    id: 5,
     title: "Unlimited Game",
     description:
       "Developed an Online Unlimited Game that never finishes, Can select different Insects based on your preferences and play the game.",
