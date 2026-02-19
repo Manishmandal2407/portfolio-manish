@@ -20,7 +20,7 @@ export const AboutSection = () => {
 
             <p className="text-muted-foreground">
               I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
+              problems, and constantly learning new technologies and
               techniques to stay at the forefront of the ever-evolving web
               landscape.
             </p>
@@ -32,7 +32,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/projects/manishBackend.pdf"
+                href="/projects/manishLink.pdf"
                 download="Manish_Kumar_Resume.pdf"
                 target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
