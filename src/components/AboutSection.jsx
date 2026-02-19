@@ -32,8 +32,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/projects/manishLink.pdf"
-                download="Manish_Kumar_Resume.pdf"
+                href="/projects/ManishLink.pdf"
+                download="Manish_Resume.pdf"
                 target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
